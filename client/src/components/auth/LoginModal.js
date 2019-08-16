@@ -88,7 +88,7 @@ class LoginModal extends React.Component {
                 />
                 <Label for="password">Password</Label>
                 <Input
-                  type="text"
+                  type="password"
                   name="password"
                   value={this.state.password}
                   className="mb-3"
