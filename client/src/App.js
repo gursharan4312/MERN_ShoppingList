@@ -8,7 +8,7 @@ import { loadUser } from "./actions/authActions";
 
 import AppNavbar from "./components/AppNavbar";
 import ShoppingList from "./components/ShoppingList";
-import ItemModal from "./components/itemModal";
+import ItemModal from "./components/ItemModal";
 function App() {
   useEffect(() => {
     store.dispatch(loadUser());
